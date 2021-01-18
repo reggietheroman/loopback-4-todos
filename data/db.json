@@ -1,14 +1,22 @@
 {
   "ids": {
-    "Todo": 6
+    "Todo": 8,
+    "TodoList": 4
   },
   "models": {
     "Todo": {
-      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"id\":1}",
-      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2}",
-      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
-      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}",
-      "5": "{\"title\":\"get it done sone\",\"desc\":\"string\",\"isComplete\":false,\"id\":5}"
+      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"isComplete\":false,\"todoListId\":1,\"id\":1}",
+      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"isComplete\":false,\"todoListId\":2,\"id\":2}",
+      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"isComplete\":false,\"todoListId\":1,\"id\":3}",
+      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"isComplete\":false,\"todoListId\":2,\"id\":4}",
+      "5": "{\"title\":\"get it done sone\",\"desc\":\"string\",\"isComplete\":true,\"todoListId\":1,\"id\":5}",
+      "6": "{\"title\":\"followw loopback 4 geo-coding service tutorial\",\"desc\":\"string\",\"isComplete\":false,\"todoListId\":2,\"id\":6}",
+      "7": "{\"title\":\"get eggs\",\"desc\":\"eggs related\",\"isComplete\":false,\"todoListId\":3,\"id\":7}"
+    },
+    "TodoList": {
+      "1": "{\"title\":\"Sith lord's check list\",\"color\":\"blue\",\"id\":1}",
+      "2": "{\"title\":\"Daily chores\",\"color\":\"red\",\"id\":2}",
+      "3": "{\"title\":\"grocery list\",\"color\":\"orange\",\"id\":3}"
     }
   }
 }
